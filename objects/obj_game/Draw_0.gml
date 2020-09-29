@@ -24,7 +24,7 @@ switch(room){
 LEFT/RIGHT: change direction
 SPACE: shoot
 
->> PRESS ENTER TO START <<
+>> PRESS ENTER TO START! <<
 ");
 		
 	//if (!instance_exists(obj_leaderboard)) {
