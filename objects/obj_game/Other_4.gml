@@ -1,16 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Play audio and spawn asteroids 2nd+ waves
+
 if(room == rm_start){
 	if(audio_is_playing(sng_start)){
 		audio_stop_sound(sng_start);
 	}
 	audio_play_sound(sng_start, 2, true);
-	
-	if (!instance_exists(obj_leaderboard)) {
-			instance_create_layer(200,200,"Instances",obj_leaderboard);
-			}
-	
-	//draw_highscore( 200, 200, room_width - 200, room_height - 150 );
 }
 
 if(room == rm_game){

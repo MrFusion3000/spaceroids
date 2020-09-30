@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Restart room
 
-room_restart();
+//room_restart();
